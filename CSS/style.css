@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* HEADER */
+header{
+    background: url(../images/img/pointes.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+header .navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(26 28 28 / 70%);
+    align-items: center;
+}
+.navbar {
+    height: 4rem;
+}
+header a{
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 20px;
+    /* text-align: center; */
+    
+}
+nav a {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+nav a:hover{
+    border-radius: 15px 0 15px 0;
+    border: 1px solid lightpink;
+}
+header h1 {
+    font-family: 'Petit Formal Script', cursive;
+}
+.header_texte h2{
+font-family: 'Petit Formal Script', cursive;
+color: #333;
+font-size: 3em;
+text-shadow:  5px 1px 0 pink;
+/* align-items: center; */
+}
+.header_texte p{
+    color: #333;
+    font-size: 1.2em;
+    max-width: 50%;
+}
+header div#button {
+    border: 1px solid red;
+    border-radius: 50px;
+}

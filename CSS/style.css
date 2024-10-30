@@ -161,10 +161,23 @@ article div {
 }
 /* section2 */
 #section2 img {
-  width: 400px;
+  width: 600px;
 }
 .texte_image {
   display: flex;
   flex-wrap: wrap;
+}
+.texte_image .part {
   background-color: #fff;
+  margin: 0 auto;
+}
+.texte_image h4 {
+  font-family: "Petit Formal Script", cursive;
+  color: #333;
+  font-size: 2.5em;
+  text-shadow: 5px 1px 0 pink;
+  margin-bottom: 20px;
+}
+.col-6 {
+  padding: 0;
 }

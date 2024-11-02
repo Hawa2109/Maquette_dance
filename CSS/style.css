@@ -161,7 +161,7 @@ article div {
 }
 /* section2 */
 #section2 img {
-  width: 600px;
+  width: 100%;
 }
 .texte_image {
   display: flex;
@@ -174,11 +174,27 @@ article div {
 .texte_image h4 {
   font-family: "Petit Formal Script", cursive;
   color: #333;
+  text-align: center;
+  padding: 70px 60px;
   font-size: 2.5em;
   text-shadow: 5px 1px 0 pink;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+#section2 p {
+  max-width: 90%;
+  text-align: center;
+  padding: 5px 75px;
 }
 .col-6 {
   padding: 0;
-  gap: 0;
+}
+footer {
+  background-color: black;
+  color: #fff;
+  height: 55px;
+}
+footer p {
+  text-align: center;
+  font-size: 1em;
+  padding: 15px;
 }

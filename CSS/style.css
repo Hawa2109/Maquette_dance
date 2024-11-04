@@ -165,10 +165,10 @@ article div {
   text-align: center;
 }
 /* section2 */
-#section2 img {
+ #section2 img {
   width: 100%;
   height: 100%;
-}
+} 
 
 #section2 .texte_image {
   display: flex;
@@ -196,6 +196,7 @@ article div {
 .col-6 {
   padding: 0;
 }
+
 footer {
   background-color: black;
   color: #fff;

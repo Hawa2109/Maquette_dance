@@ -170,13 +170,12 @@ article div {
   text-align: center;
 }
 /* section2 */
- /* #section2 img {
+/* #section2 img {
   width: 100%; */
-  /* height: 100%; */
+/* height: 100%; */
 /* }  */
 
 #section2 .texte_image {
-  
   display: flex;
   flex-wrap: wrap;
 }
@@ -199,9 +198,6 @@ article div {
   /* max-width: 80%; */
   text-align: center;
   padding: 5px 35px;
-}
-.col-6 {
-  /* padding: 0; */
 }
 
 footer {

@@ -155,6 +155,34 @@ article div {
   text-shadow: 5px 1px 0 pink;
 }
 
+#deuxieme_section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#deuxieme_section .text_image1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+#deuxieme_section .text_image1 .image1{
+  width: 50%;
+  height: 100%;
+}
+#deuxieme_section .text_image1 .image1 img{
+  object-fit: cover;
+  object-position: 100% 50%;
+
+}
+
+
 /* FOOTER */
 footer {
   background-color: black;

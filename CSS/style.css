@@ -153,9 +153,9 @@ article div {
   max-width: 790px;
   max-height: 400px;
   overflow: hidden;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
-.image-top img {
+ img {
   width: 100%;
   height: auto;
   max-height: 700px;
@@ -167,13 +167,7 @@ article div {
   max-width: 730px;
   max-height: 400px;
   overflow: hidden;
-  border: 2px solid blue;
-}
-.image-bottom img {
-  width: 100%;
-  height: auto;
-  max-height: 700px;
-  object-fit: cover;
+  /* border: 2px solid blue; */
 }
 
 .text {
@@ -207,3 +201,5 @@ footer p {
   font-size: 1em;
   padding: 15px;
 }
+/* MEDIAQUERIES */
+

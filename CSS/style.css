@@ -1,59 +1,7 @@
 * {
-  /* margin: 0;
-  padding: 0; */
-  box-sizing: border-box;
-}
-body {
   margin: 0;
   padding: 0;
-}
-.col-1 {
-  width: 8.333333%;
-  padding: 25px;
-}
-.col-2 {
-  width: 16.6666%;
-  padding: 25px;
-}
-.col-3 {
-  width: 25%;
-  padding: 25px;
-}
-.col-4 {
-  width: 33.333333%;
-  padding: 25px;
-}
-.col-5 {
-  width: 41.6666666%;
-  padding: 25px;
-}
-.col-6 {
-  width: 50%;
-  /* padding: 25px; */
-}
-.col-7 {
-  width: 58.333333%;
-  padding: 25px;
-}
-.col-8 {
-  width: 66.666666%;
-  padding: 25px;
-}
-.col-9 {
-  width: 75%;
-  padding: 25px;
-}
-.col-10 {
-  width: 83.333333%;
-  padding: 25px;
-}
-.col-11 {
-  width: 91.666666%;
-  padding: 25px;
-}
-.col-12 {
-  width: 100%;
-  padding: 25px;
+  box-sizing: border-box;
 }
 /* HEADER */
 header {
@@ -68,8 +16,6 @@ header .navbar {
   justify-content: space-around;
   background-color: rgb(26 28 28 / 70%);
   align-items: center;
-}
-.navbar {
   height: 4rem;
 }
 header a {
@@ -114,10 +60,10 @@ header h1 {
   margin-bottom: 20px;
 }
 .header_texte button {
-  padding: 10px 20px;
+  padding: 15px 20px;
   font-size: 1em;
   background-color: transparent;
-  border-radius: 5px;
+  border-radius: 10px;
   border: 1px solid #333;
   cursor: pointer;
 }
@@ -128,78 +74,129 @@ header button:hover {
 
 #conteneur {
   background-color: lightpink;
-  width: 100%;
+  /* width: 100%; */
 }
-/* pour les images des section */
-img {
-  width: 100%;
-  /* display: block; */
+#premiere_section {
+  padding-bottom: 35px;
 }
-#section1 p:first-of-type {
-  padding: 20px;
-}
-#section1 h2 {
+/* PREMIERE SECTION */
+#premiere_section h2 {
   text-align: center;
   font-family: "Petit Formal Script", cursive;
   padding-top: 25px;
 }
-#section1 h4 {
+#premiere_section .section_para {
+  padding: 40px;
+}
+#premiere_section h4 {
   text-align: center;
   padding: 15px;
 }
-.row {
-  width: 60%;
+#premiere_section img {
+  width: 100%;
+  /* border: 2px solid red; */
+}
+article {
+  /* border: 2px solid red; */
+  width: 100%;
+}
+.box {
+  /* border: 2px solid red; */
   margin: 0 auto;
-}
-#section1 .row {
   display: flex;
-  flex-wrap: wrap;
+  width: 70%;
 }
+
 article div {
   position: relative;
 }
 .prix {
+  width: 60%;
+  font-size: 1.3em;
+  text-align: center;
   background-color: #fff;
+  border-radius: 1.5px;
+  letter-spacing: 1.5px;
+  padding: 3px;
   position: absolute;
-  top: 2.5%;
-  left: -10%;
-  padding: 5px;
+  top: 3%;
+  right: 50%;
 }
-.texte {
+#premiere_section .texte {
+  /* border: 2px solid green; */
   background-color: #fff;
   text-align: center;
+  margin: 20px;
 }
-/* section2 */
-/* #section2 img {
-  width: 100%; */
-/* height: 100%; */
-/* }  */
+/* DEUXIEME SECTION */
 
-#section2 .texte_image {
+/* TOP SECTION */
+.container_2 {
+  width: 100%;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
-.texte_image .part {
-  width: 40%;
-  background-color: #fff;
-  margin: 0 auto;
-  padding: 90px 10px;
+.block-top {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
-.texte_image h4 {
-  font-family: "Petit Formal Script", cursive;
-  color: #333;
-  text-align: center;
-  padding: 70px 40px;
-  font-size: 2.5em;
-  text-shadow: 5px 1px 0 pink;
-  /* padding-bottom: 20px; */
+.block-bottom {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
 }
-#section2 p {
-  /* max-width: 80%; */
-  text-align: center;
-  padding: 5px 35px;
+/* POUR REDIMENSIONNER LA PREMIERE IMAGE */
+
+.image-top {
+  width: 100%;
+  max-width: 790px;
+  max-height: 400px;
+  overflow: hidden;
+  border: 2px solid red;
+}
+.image-top img {
+  width: 100%;
+  height: auto;
+  max-height: 700px;
+  object-fit: cover;
+}
+/* LA DEUXIEME IMAGE  redimensionnner la deuxieme image*/
+.image-bottom{
+    width: 100%;
+  max-width: 730px;
+  max-height: 400px;
+  overflow: hidden;
+  border: 2px solid blue;
+}
+.image-bottom img {
+  width: 100%;
+  height: auto;
+  max-height: 700px;
+  object-fit: cover;
 }
 
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+}
+.text h4 {
+  font-size: 24px;
+  font-family: "Petit Formal Script", cursive;
+  color: #191818;
+  font-size: 1.5em;
+  text-shadow: 3px 0px 0 pink;
+  text-align: center;
+  padding: 15px;
+}
+.text p {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* FOOTER */
 footer {
   background-color: black;
   color: #fff;

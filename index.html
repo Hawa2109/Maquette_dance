@@ -35,9 +35,9 @@
       </div>
     </header>
     <main id="conteneur">
-      <section id="section1">
+      <section id="premiere_section">
         <h2>Our classes</h2>
-        <p>
+        <p class="section_para">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem laborum
           nam harum necessitatibus, dignissimos ullam repellendus incidunt
           facilis! Eaque ipsam voluptates excepturi voluptate fuga! Velit
@@ -49,16 +49,15 @@
           incidunt voluptatem deleniti dolorem provident excepturi facilis
           quisquam minus iusto minima!
         </p>
-        <div class="row">
-          <article class="col-4">
-            <div>
+        <div class="box">
+          <article>
+            <div class="texte">
               <img
                 src="./images/img/pointes_portrait.jpg"
                 alt="Image de pointes"
               />
-              <div class="prix">50$ per class</div>
-            </div>
-            <div class="texte">
+              <p class="prix">50$ per class</p>
+
               <h4>Lorem, ipsum dolor.</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -68,12 +67,12 @@
               </p>
             </div>
           </article>
-          <article class="col-4">
-            <div>
+          <article>
+            <div class="texte">
               <img src="./images/img/kids_dance.jpg" alt="image_enfants" />
-              <div class="prix">50$ per class</div>
-            </div>
-            <div class="texte">
+
+              <p class="prix">50$ per class</p>
+
               <h4>Lorem, ipsum dolor.</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -83,15 +82,14 @@
               </p>
             </div>
           </article>
-          <article class="col-4">
-            <div>
+          <article>
+            <div class="texte">
               <img
                 src="./images/img/cours-danse.jpg"
                 alt="image cours de danse"
               />
-              <div class="prix">50$ per class</div>
-            </div>
-            <div class="texte">
+              <p class="prix">50$ per class</p>
+
               <h4>Lorem, ipsum dolor.</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -103,15 +101,18 @@
           </article>
         </div>
       </section>
-      <section id="section2">
-        <div class="texte_image">
-          <div class="col-6">
+      <section class="container_2">
+        <div class="block-top">
+          <div class="image image-top">
             <img
               src="./images/img/adulte_dance.jpg"
+              width="500"
+              height="200"
+              class="ballerina"
               alt="Image d'une ballerina adulte"
             />
           </div>
-          <div class="col-6 part">
+          <div class="text text-top">
             <h4>Lorem ipsum dolor sit</h4>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
@@ -119,17 +120,19 @@
               accusantium qui eos mollitia consequuntur culpa eius expedita.
             </p>
           </div>
+        </div>
 
-          <div class="col-6 part">
+        <div class="block-bottom">
+          <div class="image image-bottom">
+            <img src="./images/img/spectacle.jpg" alt="Image d'spectacle" />
+          </div>
+          <div class="text text-bottom">
             <h4>Lorem ipsum dolor sit</h4>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
               in sed perferendis consectetur. Optio labore, commodi quaerat
               accusantium qui eos mollitia consequuntur culpa eius expedita.
             </p>
-          </div>
-          <div class="col-6" id="inverse">
-            <img src="./images/img/spectacle.jpg" alt="Image d'spectacle" />
           </div>
         </div>
       </section>

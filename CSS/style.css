@@ -149,8 +149,8 @@ article div {
 /* POUR REDIMENSIONNER LA PREMIERE IMAGE */
 
 .image-top {
-  width: 100%;
-  max-width: 790px;
+  width: 50%;
+  max-width: 50%;
   max-height: 400px;
   overflow: hidden;
   /* border: 2px solid red; */
@@ -163,13 +163,18 @@ article div {
 }
 /* LA DEUXIEME IMAGE  redimensionnner la deuxieme image*/
 .image-bottom{
-    width: 100%;
-  max-width: 730px;
+  width: 50%;
+  max-width: 50%;
   max-height: 400px;
   overflow: hidden;
   /* border: 2px solid blue; */
 }
-
+.text-top {
+  width: 50%;
+}
+.text-bottom{
+  width: 50%;
+}
 .text {
   display: flex;
   flex-direction: column;
@@ -201,5 +206,32 @@ footer p {
   font-size: 1em;
   padding: 15px;
 }
-/* MEDIAQUERIES */
+
+/* MEDIA QUERIES */
+/* Media Query pour les écrans de moins de 600px */
+@media (max-width: 600px) {
+  /* Réduire la taille de la navbar */
+  header .navbar {
+    flex-direction: column;
+    height: auto;
+  }
+
+  /* Adapter les articles */
+  .box {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .container_2 div, img{
+    width: 100%;
+  }
+  .block-bottom, .block-top{
+    width: 100%;
+    flex-direction: column;
+
+  }
+
+
+}
+
 
